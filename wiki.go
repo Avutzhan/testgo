@@ -33,7 +33,8 @@ func viewHandler(w http.ResponseWriter, r *http.Request) {
     fmt.Fprintf(w, "<h1>%s</h1><div>%s</div>", p.Title, p.Body)
 }
 
-// http://localhost:8080/view/testfunc main() {
+// http://localhost:8080/view/test
+func main() {
     http.HandleFunc("/view/", viewHandler)
     log.Fatal(http.ListenAndServe(":8080", nil))
 }
