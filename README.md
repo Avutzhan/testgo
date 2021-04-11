@@ -13,3 +13,11 @@
 * Programming experience
 * Understanding of basic web technologies (HTTP, HTML)
 * Some UNIX/DOS command-line knowledge
+
+```angular2html
+$ go bild wiki.go
+$ ./wiki
+```
+
+
+go to http://localhost:8080/view/this is new page name
